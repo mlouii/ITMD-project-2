@@ -162,7 +162,7 @@ p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 30px;
   padding: 100px;
 }
 
@@ -175,6 +175,7 @@ p {
   margin-right: auto;
   padding: 100px;
   font-size: 20px;
+  margin-top: 100px;
 }
 
 .resume em {
@@ -206,4 +207,9 @@ h4 {
 .sectionHead {
   font-size: 30px;
   color: #f66b80;
+}
+
+.titleBar {
+  display: flex;
+  justify-content: space-between;
 }
