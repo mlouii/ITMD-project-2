@@ -248,3 +248,26 @@ h4 {
   width: 30%;
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
 }
+
+.positionHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyIcon{
+  width: 3vw;
+  height: 3vw;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comp {
+  color: #f66b80;
+  margin-top: 2vw;
+  font-size: 0.7vw;
+}
