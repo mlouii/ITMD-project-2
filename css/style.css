@@ -36,7 +36,7 @@ a {
 }
 
 .gradient {
-  background: linear-gradient(130deg, rgba(244,212,184,1) 0%, rgba(239,169,179,1) 17%, rgba(61,90,128,1) 100%);
+  background: linear-gradient(130deg, rgba(244, 212, 184, 1) 0%, rgba(239, 169, 179, 1) 17%, rgba(61, 90, 128, 1) 100%);
 }
 
 .navButton:hover {
@@ -44,14 +44,14 @@ a {
   box-shadow: inset 0 0 10px #EFA9B3;
 }
 
-.showArea{
+.showArea {
   width: 74vw;
   margin-left: auto;
   margin-right: auto;
 }
 
 .shadow {
-  box-shadow: 4px 3px 42px -13px rgba(0,0,0,0.75);
+  box-shadow: 4px 3px 42px -13px rgba(0, 0, 0, 0.75);
 }
 
 h1 {
@@ -105,33 +105,33 @@ p {
   width: 35vw;
 }
 
-.infoRow1{
+.infoRow1 {
   margin-top: 6vh;
   display: flex;
 }
 
-.infoCol1{
+.infoCol1 {
   width: 60%;
   margin-left: 2%;
   padding: 4%;
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
 }
 
-.infoCol12{
+.infoCol12 {
   width: 30%;
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
 }
 
-.info1Img{
+.info1Img {
   width: 100%;
 }
 
-.infoRow2{
+.infoRow2 {
   margin-top: 6vh;
   display: flex;
 }
 
-.infoCol2{
+.infoCol2 {
   align-items: center;
   width: 60%;
   margin-right: 2%;
@@ -140,7 +140,7 @@ p {
   text-align: right;
 }
 
-.infoCol22{
+.infoCol22 {
   width: 30%;
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
 }
@@ -159,7 +159,7 @@ p {
 
 .notification {
   width: 900px;
-  background: linear-gradient(130deg, rgba(244,212,184,1) 0%, rgba(239,169,179,1) 17%, rgba(61,90,128,1) 100%);
+  background: linear-gradient(130deg, rgba(244, 212, 184, 1) 0%, rgba(239, 169, 179, 1) 17%, rgba(61, 90, 128, 1) 100%);
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
   text-align: center;
   margin-left: auto;
@@ -186,6 +186,16 @@ p {
 
 .resumeTitle {
   font-size: 50px;
+}
+
+.left {
+  float: left;
+  width: 50px;
+}
+
+.right {
+  float: right;
+  width: 50px;
 }
 
 h4 {
@@ -224,7 +234,7 @@ h4 {
   text-align: center;
 }
 
-.infoRow3{
+.infoRow3 {
   margin-top: 3vh;
   display: flex;
   width: 80%;
@@ -232,13 +242,13 @@ h4 {
   margin-right: auto;
 }
 
-.subtext2{
+.subtext2 {
   color: #1A1E23;
   font-size: 0.7vw;
   margin-top: 2px;
 }
 
-.infoCol3{
+.infoCol3 {
   background-color: #FFF6EB;
   width: 60%;
   margin-left: 2%;
@@ -246,17 +256,17 @@ h4 {
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
 }
 
-.infoCol32{
+.infoCol32 {
   width: 30%;
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
 }
 
-.positionHeader{
+.positionHeader {
   display: flex;
   justify-content: space-between;
 }
 
-.companyIcon{
+.companyIcon {
   width: 3vw;
   height: 3vw;
   align-items: center;
@@ -272,4 +282,31 @@ h4 {
   color: #f66b80;
   margin-top: 2vw;
   font-size: 0.7vw;
+}
+
+.wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.icons-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-color: #F4D4B8;
+}
+
+.icon img {
+  max-width: 100%;
+  max-height: 100%;
 }
